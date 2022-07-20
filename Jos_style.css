@@ -178,9 +178,10 @@ nav a{
   color: white; 
 }
 .row3{
+  width: auto;
   display: block;
   padding: 10px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .row3::after{
   content: "";
@@ -207,6 +208,7 @@ nav a{
 }
 .row4 img{
   width: 90%;
+  margin-top: 20px;
 }
 .lay11{
   width: 99%;
@@ -457,16 +459,21 @@ footer{
   .but3{
     margin-left: 300px;
   }
+  .row3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .lay5, .lay6, .lay7, .lay8, .lay9, .lay10{
     width: 20%;
   }
   .lay5, .lay8{
-    margin-right: 50px;
+    margin-right: 55px;
     margin-left: 100px;
   }
   .lay7, .lay10{
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 25px;
   }
   .lay7{
     margin-top: 0%;
