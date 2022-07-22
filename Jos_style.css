@@ -53,6 +53,7 @@ header{
   margin-top: -8px;
   transform: rotatex(360deg);
   transition: 2s;
+  transition-delay: 1s;
 }
 #nav{
   display: none;
