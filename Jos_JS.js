@@ -6,5 +6,6 @@ function opennav(x){
         } else {
           x.style.display = "block";
         }
-}
+};
+document.getElementById("loo").style.display = "none";
   
