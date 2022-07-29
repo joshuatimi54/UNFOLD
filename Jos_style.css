@@ -211,7 +211,7 @@ nav a{
   float: left;
   height: 175px;
   margin-right: 30px;
-  background-color: rgb(2,120,174,0.4);
+  background-color: rgb(153,201,223);
   border-radius: 10px;
   text-align: center;
 }
@@ -259,7 +259,7 @@ nav a{
   box-shadow: 0px 0px 15px 10px  rgb(0, 0, 0, 0.5);
 }
 .row6 h3{
-  color: rgb(2,120,174);
+  color: rgb(0,0,0);
 }
 .lay12, .lay13, .lay14, .lay15{
   min-width: 40%;
@@ -359,6 +359,13 @@ footer{
 .row8 i{
   text-align: end;
   color: rgb(2,120,174);
+}
+.foot-icon{
+  float: right;
+  padding: 0px 10px 0px 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 
@@ -650,9 +657,10 @@ footer{
     margin-left: 300px;
   }
   .row3{
-    width: 80%;
+    height: 550px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(153,201,223);
   }
   .row3 img{
     width: 100px;
@@ -692,26 +700,26 @@ footer{
 
   .lay12, .lay13, .lay14, .lay15{
     min-width: 20%;  
-    height: 75px;
+    height: 125px;
   }
   .lay12{
     background-size: cover;
-    padding: 225px 0px 0px 10px;
+    padding: 190px 0px 0px 10px;
   }
   .lay13{
     background-size: contain;
     background-size: cover;
-    padding: 225px 0px 0px 10px;
+    padding: 190px 0px 0px 10px;
   }
   .lay14{
     background-size: contain;
     background-size: cover;
-    padding: 225px 0px 0px 10px;
+    padding: 190px 0px 0px 10px;
   }
   .lay15{
     background-size: contain;
     background-size: cover;
-    padding: 225px 0px 0px 10px;
+    padding: 190px 0px 0px 10px;
   }
 
   footer{
@@ -729,5 +737,12 @@ footer{
   }
   .lay16, .lay17{
     padding: 75px 60px 75px 60px;
+  }
+  .foot-icon{
+    float: right;
+    padding: 0px 10px 0px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
   }
 }
